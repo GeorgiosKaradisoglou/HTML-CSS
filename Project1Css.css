@@ -1,0 +1,146 @@
+body 
+{
+  background-color:mintcream;
+  text-align: center;
+  margin: 0;
+  font-family:"georgia";
+  line-height: 1.3;
+}
+
+.header
+{
+  color: firebrick;
+  margin-left: 30px;
+  float: top;
+  text-decoration: underline; /* the opposite of underline text-decoration: none;*/
+}
+
+
+img 
+{
+	float:left;
+	border:2px solid black;
+	margin-right:17px;
+	box-sizing: border-box;
+}
+
+p
+{
+	background:lightgrey;
+	border:2px solid black;
+	padding:10px;
+	margin-top: 0;
+}	
+
+
+
+
+table , th , td 
+{
+	border-collapse: collapse;
+	border-color:indigo;
+	background-color:lightsteelblue;
+	padding-top: 100px;
+	border-bottom-color:blue;	
+	border-top-color:blue;
+	border-right-color: blue;
+	border-left-color: blue;
+	color:navy;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	text-align: center;
+	line-height: 17px;
+
+}
+
+/*th , td 
+{
+
+	padding: 10px;
+	text-align: left;
+}
+*/
+
+ol , ul
+{
+	display: table;
+	margin: auto;
+	margin-bottom: 28px;
+    text-align:center;
+	display: inline-block;
+	text-align:left;     
+
+	/*border-bottom: 2px dashed #343434;
+	border-top:2px dashed #343434;
+	border-right:2px dashed #343434;
+	/*/*/*border-left: 2px dashed #343434; enter some dashed lines on borders*/*/
+}
+
+
+.MOTO
+{
+
+	margin-top:10px; 
+	margin-bottom:100px;
+	color: red;
+	font-style: italic;
+	font-family: 'Lobster', cursive;
+	font-size:1.68em;	
+	text-shadow:2.2px 2.2px black;
+	line-height:1.3;
+	font-weight: bold; 
+
+	/*or in shothand I can write : 
+	/*font:italic small-caps bold 24px/1.5 'Lobster',cursive;
+	/*text-shadow: 2.2px 2.2px black;*/
+}
+
+
+.fill
+{
+	color: purple;
+
+}
+
+
+.skab
+{
+	background:orange;
+
+}
+
+footer
+{
+	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Minimal-Wallpapers-HD-For-Desktop.jpg");
+    background-position: left left;
+    background-size: 135% 138%;
+    /*background-color: blue; some backgrounds need it depends on their size or resolution or definition*/
+    /*background-repeat: repeat;*/
+    /*background-size: cover;*/
+
+}
+
+
+#flex 
+{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+  	margin-top:25px;
+  	margin-bottom:50px; /*i can use padding*/
+}
+
+#flex div 
+{
+  width: 170px;
+  height: 55px;
+  text-align:center;
+}
+
+
+/*h2+p
+{
+	font-style: italic;
+	color: red; //i am writing it so i know i can do it ( h2~p )
+}*/
